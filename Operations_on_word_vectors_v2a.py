@@ -22,7 +22,6 @@ words, word_to_vec_map = read_glove_vecs('../../readonly/glove.6B.50d.txt')
 # * Lets now see how you can use GloVe vectors to measure the similarity between two words. 
 
 # # 1 - Cosine similarity
-# 
 # To measure the similarity between two words, we need a way to measure the degree of similarity between two embedding vectors for the two words. Given two vectors $u$ and $v$, cosine similarity is defined as follows: 
 # 
 # $$\text{CosineSimilarity(u, v)} = \frac {u \cdot v} {||u||_2 ||v||_2} = cos(\theta) \tag{1}$$
